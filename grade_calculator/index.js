@@ -1,5 +1,3 @@
-const mark = 90;
-
 function grading(mark) {
     if (mark >= 80 && mark <= 100) {
         console.log('A'); // marks above 79 get an A. so grade A starts from 80 all the way up to 100.
