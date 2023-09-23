@@ -12,7 +12,7 @@ function detectingSpeed(speed) {
     if (points > 12) {
         console.log('License suspended');// If points are more than 12, print "License suspended"
     } else {
-        console.log("Points:", points);
+        console.log(points);
     }
 }
 detectingSpeed(80);// Testing the function with a speed of 80
