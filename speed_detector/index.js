@@ -1,0 +1,2 @@
+const speedLimit = 70;
+
