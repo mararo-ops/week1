@@ -15,7 +15,7 @@ function detectingSpeed(speed) {
         console.log("Points:", points);
     }
 }
-checkSpeed(80);// Testing the function with a speed of 80
+detectingSpeed(80);// Testing the function with a speed of 80
 
 
 
