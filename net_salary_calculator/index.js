@@ -1,8 +1,8 @@
 // JavaScript program to calculate net salary
 
 // Get inputs from user
-const basicSalary = prompt("Enter your basic salary:");
-const benefits = prompt("Enter your benefits:");
+const basicSalary = 600000;// input your basic salary 
+const benefits = 50000;//input your benefits
 
 // Calculate gross salary
 const grossSalary = basicSalary + benefits;
@@ -32,5 +32,5 @@ const netSalary = grossSalary - payee - nhifDeductions - nssfDeductions;
 console.log(`Gross salary: ${grossSalary}`);
 console.log(`PAYE: ${payee}`);
 console.log(`NHIF deductions: ${nhifDeductions}`);
-console.log(`NSSF deductions: ${nnsfDeductions}`);
+console.log(`NSSF deductions: ${nssfDeductions}`);
 console.log(`Net salary: ${netSalary}`);
