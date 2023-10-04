@@ -10,7 +10,7 @@ const grossSalary = basicSalary + benefits;
 // Calculate PAYE
 let payee = 0;
 if (grossSalary <= 252,712) {
-  payee = 0;
+  payee = 0;//if your grossSalary is below 252712 then you don't pay for the payee
 } else if (grossSalary <= 473,752) {
   payee = (grossSalary - 252,712) * 0.25;
 } else if (grossSalary <= 947,520) {

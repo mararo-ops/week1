@@ -12,7 +12,7 @@ function grading(mark) {
         console.log('C'); // marks above 49 and below 60 get a C. so grade C starts from 50 all the way up to 59
     } else if (mark >= 40 && mark <= 49) {
         console.log('D'); // marks starting from 40 all the way up to 49 give us a grade D.
-    } else if (mark >= o && mark <= 40){
+    } else if (mark >= 0 && mark <= 40){
         console.log('E'); // marks starting from 0 all the way upto 40 give us a grade E
     } 
 }
